@@ -1,0 +1,7 @@
+# Packages the app needs. Install with:
+#   .venv\Scripts\python -m pip install -r requirements.txt
+
+streamlit>=1.50      # the local web dashboard
+pydantic>=2.12       # checks that league data has the right shape
+python-dotenv>=1.1   # reads settings from the .env file
+pytest>=8.0          # runs the automated tests

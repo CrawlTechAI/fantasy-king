@@ -1,0 +1,2096 @@
+{
+  "source": "sample",
+  "captured_at": "2026-09-30T09:00:00",
+  "week": 4,
+  "settings": {
+    "league_name": "Sample League (fake data)",
+    "season": 2026,
+    "num_teams": 10,
+    "scoring_type": "half_ppr",
+    "roster_slots": {
+      "QB": 1,
+      "WR": 2,
+      "RB": 2,
+      "TE": 1,
+      "W/R/T": 1,
+      "K": 1,
+      "DEF": 1,
+      "BN": 6,
+      "IR": 1
+    },
+    "waiver_type": "FAAB",
+    "faab_budget": 100,
+    "trade_deadline": "2026-11-21",
+    "playoff_start_week": 15
+  },
+  "teams": [
+    {
+      "team_id": "1",
+      "name": "Your Sample Team",
+      "manager": "You",
+      "is_mine": true,
+      "wins": 0,
+      "losses": 3,
+      "ties": 0,
+      "points_for": 342.9,
+      "faab_remaining": 99,
+      "roster": [
+        {
+          "slot": "QB",
+          "player": {
+            "name": "Ellis Oakenshaw",
+            "position": "QB",
+            "nfl_team": "NE",
+            "bye_week": 6,
+            "projected_points": 23.8,
+            "percent_rostered": 90.0
+          }
+        },
+        {
+          "slot": "WR",
+          "player": {
+            "name": "Ignatius Thunderbrook",
+            "position": "WR",
+            "nfl_team": "WAS",
+            "bye_week": 11,
+            "injury_status": "O",
+            "projected_points": 0.0,
+            "percent_rostered": 80.0
+          }
+        },
+        {
+          "slot": "WR",
+          "player": {
+            "name": "Rafferty Cinderford",
+            "position": "WR",
+            "nfl_team": "NO",
+            "bye_week": 12,
+            "injury_status": "D",
+            "projected_points": 13.7,
+            "percent_rostered": 90.0
+          }
+        },
+        {
+          "slot": "RB",
+          "player": {
+            "name": "Alaric Thunderbrook",
+            "position": "RB",
+            "nfl_team": "CLE",
+            "bye_week": 14,
+            "injury_status": "Q",
+            "projected_points": 17.4,
+            "percent_rostered": 72.0
+          }
+        },
+        {
+          "slot": "RB",
+          "player": {
+            "name": "Fenwick Fairweather",
+            "position": "RB",
+            "nfl_team": "DAL",
+            "bye_week": 13,
+            "projected_points": 13.9,
+            "percent_rostered": 86.0
+          }
+        },
+        {
+          "slot": "TE",
+          "player": {
+            "name": "Alaric Winterbourne",
+            "position": "TE",
+            "nfl_team": "NE",
+            "bye_week": 6,
+            "projected_points": 6.6,
+            "percent_rostered": 84.0
+          }
+        },
+        {
+          "slot": "W/R/T",
+          "player": {
+            "name": "Ulric Thistledown",
+            "position": "WR",
+            "nfl_team": "MIA",
+            "bye_week": 6,
+            "projected_points": 13.5,
+            "percent_rostered": 88.0
+          }
+        },
+        {
+          "slot": "K",
+          "player": {
+            "name": "Yates Thunderbrook",
+            "position": "K",
+            "nfl_team": "CIN",
+            "bye_week": 14,
+            "projected_points": 7.0,
+            "percent_rostered": 85.0
+          }
+        },
+        {
+          "slot": "DEF",
+          "player": {
+            "name": "LAR Defense",
+            "position": "DEF",
+            "nfl_team": "LAR",
+            "bye_week": 6,
+            "projected_points": 8.8,
+            "percent_rostered": 75.0
+          }
+        },
+        {
+          "slot": "BN",
+          "player": {
+            "name": "Dexter Underhill",
+            "position": "QB",
+            "nfl_team": "GB",
+            "bye_week": 13,
+            "projected_points": 15.6,
+            "percent_rostered": 76.0
+          }
+        },
+        {
+          "slot": "BN",
+          "player": {
+            "name": "Ulric Hollowell",
+            "position": "WR",
+            "nfl_team": "GB",
+            "bye_week": 13,
+            "projected_points": 12.9,
+            "percent_rostered": 70.0
+          }
+        },
+        {
+          "slot": "BN",
+          "player": {
+            "name": "Quentin Foxglove",
+            "position": "RB",
+            "nfl_team": "KC",
+            "bye_week": 8,
+            "projected_points": 12.6,
+            "percent_rostered": 92.0
+          }
+        },
+        {
+          "slot": "BN",
+          "player": {
+            "name": "Barrett Ravenscroft",
+            "position": "WR",
+            "nfl_team": "LV",
+            "bye_week": 5,
+            "projected_points": 10.9,
+            "percent_rostered": 77.0
+          }
+        },
+        {
+          "slot": "BN",
+          "player": {
+            "name": "Quentin Pennywhistle",
+            "position": "RB",
+            "nfl_team": "DEN",
+            "bye_week": 11,
+            "projected_points": 10.5,
+            "percent_rostered": 85.0
+          }
+        },
+        {
+          "slot": "BN",
+          "player": {
+            "name": "Thaddeus Pennywhistle",
+            "position": "RB",
+            "nfl_team": "DET",
+            "bye_week": 14,
+            "projected_points": 6.3,
+            "percent_rostered": 72.0
+          }
+        }
+      ]
+    },
+    {
+      "team_id": "2",
+      "name": "Gridiron Gophers",
+      "manager": "Morgan",
+      "is_mine": false,
+      "wins": 3,
+      "losses": 0,
+      "ties": 0,
+      "points_for": 303.6,
+      "faab_remaining": 68,
+      "roster": [
+        {
+          "slot": "QB",
+          "player": {
+            "name": "Fenwick Goldsworth",
+            "position": "QB",
+            "nfl_team": "ARI",
+            "bye_week": 6,
+            "projected_points": 17.1,
+            "percent_rostered": 83.0
+          }
+        },
+        {
+          "slot": "WR",
+          "player": {
+            "name": "Osgood Inkwell",
+            "position": "WR",
+            "nfl_team": "LAR",
+            "bye_week": 6,
+            "projected_points": 15.9,
+            "percent_rostered": 82.0
+          }
+        },
+        {
+          "slot": "WR",
+          "player": {
+            "name": "Xavier Quarryman",
+            "position": "WR",
+            "nfl_team": "JAX",
+            "bye_week": 12,
+            "projected_points": 14.6,
+            "percent_rostered": 75.0
+          }
+        },
+        {
+          "slot": "RB",
+          "player": {
+            "name": "Cormac Northcliff",
+            "position": "RB",
+            "nfl_team": "MIA",
+            "bye_week": 6,
+            "projected_points": 16.4,
+            "percent_rostered": 83.0
+          }
+        },
+        {
+          "slot": "RB",
+          "player": {
+            "name": "Gideon Foxglove",
+            "position": "RB",
+            "nfl_team": "CLE",
+            "bye_week": 14,
+            "injury_status": "Q",
+            "projected_points": 12.2,
+            "percent_rostered": 72.0
+          }
+        },
+        {
+          "slot": "TE",
+          "player": {
+            "name": "Barrett Tumbleweed",
+            "position": "TE",
+            "nfl_team": "NYJ",
+            "bye_week": 12,
+            "projected_points": 8.1,
+            "percent_rostered": 99.0
+          }
+        },
+        {
+          "slot": "W/R/T",
+          "player": {
+            "name": "Dexter Hawkridge",
+            "position": "WR",
+            "nfl_team": "PHI",
+            "bye_week": 10,
+            "projected_points": 13.1,
+            "percent_rostered": 99.0
+          }
+        },
+        {
+          "slot": "K",
+          "player": {
+            "name": "Maddox Larkspur",
+            "position": "K",
+            "nfl_team": "SEA",
+            "bye_week": 9,
+            "projected_points": 7.0,
+            "percent_rostered": 86.0
+          }
+        },
+        {
+          "slot": "DEF",
+          "player": {
+            "name": "MIA Defense",
+            "position": "DEF",
+            "nfl_team": "MIA",
+            "bye_week": 6,
+            "projected_points": 6.5,
+            "percent_rostered": 93.0
+          }
+        },
+        {
+          "slot": "BN",
+          "player": {
+            "name": "Wendell Hollowell",
+            "position": "QB",
+            "nfl_team": "LV",
+            "bye_week": 5,
+            "injury_status": "D",
+            "projected_points": 17.0,
+            "percent_rostered": 74.0
+          }
+        },
+        {
+          "slot": "BN",
+          "player": {
+            "name": "Yates Underhill",
+            "position": "RB",
+            "nfl_team": "NYJ",
+            "bye_week": 12,
+            "projected_points": 12.1,
+            "percent_rostered": 84.0
+          }
+        },
+        {
+          "slot": "BN",
+          "player": {
+            "name": "Benedict Rookwood",
+            "position": "RB",
+            "nfl_team": "TEN",
+            "bye_week": 10,
+            "projected_points": 10.4,
+            "percent_rostered": 75.0
+          }
+        },
+        {
+          "slot": "BN",
+          "player": {
+            "name": "Benedict Ashgrove",
+            "position": "WR",
+            "nfl_team": "CIN",
+            "bye_week": 14,
+            "projected_points": 7.7,
+            "percent_rostered": 80.0
+          }
+        },
+        {
+          "slot": "BN",
+          "player": {
+            "name": "Wendell Greystone",
+            "position": "WR",
+            "nfl_team": "CIN",
+            "bye_week": 14,
+            "projected_points": 6.4,
+            "percent_rostered": 76.0
+          }
+        },
+        {
+          "slot": "BN",
+          "player": {
+            "name": "Cormac Oakenshaw",
+            "position": "RB",
+            "nfl_team": "NYJ",
+            "bye_week": 12,
+            "projected_points": 6.1,
+            "percent_rostered": 88.0
+          }
+        }
+      ]
+    },
+    {
+      "team_id": "3",
+      "name": "End Zone Otters",
+      "manager": "Riley",
+      "is_mine": false,
+      "wins": 1,
+      "losses": 2,
+      "ties": 0,
+      "points_for": 326.0,
+      "faab_remaining": 87,
+      "roster": [
+        {
+          "slot": "QB",
+          "player": {
+            "name": "Caspian Mossgrove",
+            "position": "QB",
+            "nfl_team": "BUF",
+            "bye_week": 13,
+            "projected_points": 21.4,
+            "percent_rostered": 95.0
+          }
+        },
+        {
+          "slot": "WR",
+          "player": {
+            "name": "Zebulon Thistledown",
+            "position": "WR",
+            "nfl_team": "PHI",
+            "bye_week": 10,
+            "projected_points": 16.6,
+            "percent_rostered": 83.0
+          }
+        },
+        {
+          "slot": "WR",
+          "player": {
+            "name": "Nolan Thunderbrook",
+            "position": "WR",
+            "nfl_team": "NYJ",
+            "bye_week": 12,
+            "projected_points": 15.7,
+            "percent_rostered": 97.0
+          }
+        },
+        {
+          "slot": "RB",
+          "player": {
+            "name": "Fenwick Orchardson",
+            "position": "RB",
+            "nfl_team": "NE",
+            "bye_week": 6,
+            "projected_points": 17.7,
+            "percent_rostered": 77.0
+          }
+        },
+        {
+          "slot": "RB",
+          "player": {
+            "name": "Yates Tumbleweed",
+            "position": "RB",
+            "nfl_team": "LAR",
+            "bye_week": 6,
+            "projected_points": 17.6,
+            "percent_rostered": 89.0
+          }
+        },
+        {
+          "slot": "TE",
+          "player": {
+            "name": "Wendell Puddlefoot",
+            "position": "TE",
+            "nfl_team": "NO",
+            "bye_week": 12,
+            "projected_points": 13.9,
+            "percent_rostered": 90.0
+          }
+        },
+        {
+          "slot": "W/R/T",
+          "player": {
+            "name": "Benedict Tumbleweed",
+            "position": "RB",
+            "nfl_team": "NYG",
+            "bye_week": 5,
+            "projected_points": 17.2,
+            "percent_rostered": 87.0
+          }
+        },
+        {
+          "slot": "K",
+          "player": {
+            "name": "Rafferty Applegate",
+            "position": "K",
+            "nfl_team": "CIN",
+            "bye_week": 14,
+            "projected_points": 7.7,
+            "percent_rostered": 80.0
+          }
+        },
+        {
+          "slot": "DEF",
+          "player": {
+            "name": "MIN Defense",
+            "position": "DEF",
+            "nfl_team": "MIN",
+            "bye_week": 9,
+            "projected_points": 6.6,
+            "percent_rostered": 70.0
+          }
+        },
+        {
+          "slot": "BN",
+          "player": {
+            "name": "Harlan Oakenshaw",
+            "position": "QB",
+            "nfl_team": "DAL",
+            "bye_week": 13,
+            "projected_points": 17.8,
+            "percent_rostered": 85.0
+          }
+        },
+        {
+          "slot": "BN",
+          "player": {
+            "name": "Alaric Inkwell",
+            "position": "WR",
+            "nfl_team": "HOU",
+            "bye_week": 12,
+            "projected_points": 13.1,
+            "percent_rostered": 73.0
+          }
+        },
+        {
+          "slot": "BN",
+          "player": {
+            "name": "Ignatius Fairweather",
+            "position": "RB",
+            "nfl_team": "JAX",
+            "bye_week": 12,
+            "injury_status": "D",
+            "projected_points": 12.0,
+            "percent_rostered": 89.0
+          }
+        },
+        {
+          "slot": "BN",
+          "player": {
+            "name": "Alaric Kettleburn",
+            "position": "RB",
+            "nfl_team": "NO",
+            "bye_week": 12,
+            "projected_points": 10.9,
+            "percent_rostered": 82.0
+          }
+        },
+        {
+          "slot": "BN",
+          "player": {
+            "name": "Gideon Rookwood",
+            "position": "WR",
+            "nfl_team": "ATL",
+            "bye_week": 10,
+            "projected_points": 8.8,
+            "percent_rostered": 85.0
+          }
+        },
+        {
+          "slot": "BN",
+          "player": {
+            "name": "Osgood Marshbank",
+            "position": "WR",
+            "nfl_team": "CLE",
+            "bye_week": 14,
+            "projected_points": 7.6,
+            "percent_rostered": 89.0
+          }
+        }
+      ]
+    },
+    {
+      "team_id": "4",
+      "name": "Blitz Badgers",
+      "manager": "Casey",
+      "is_mine": false,
+      "wins": 0,
+      "losses": 3,
+      "ties": 0,
+      "points_for": 396.9,
+      "faab_remaining": 81,
+      "roster": [
+        {
+          "slot": "QB",
+          "player": {
+            "name": "Cormac Birchfield",
+            "position": "QB",
+            "nfl_team": "DEN",
+            "bye_week": 11,
+            "projected_points": 18.1,
+            "percent_rostered": 90.0
+          }
+        },
+        {
+          "slot": "WR",
+          "player": {
+            "name": "Abel Applegate",
+            "position": "WR",
+            "nfl_team": "NO",
+            "bye_week": 12,
+            "projected_points": 19.0,
+            "percent_rostered": 83.0
+          }
+        },
+        {
+          "slot": "WR",
+          "player": {
+            "name": "Benedict Orchardson",
+            "position": "WR",
+            "nfl_team": "MIA",
+            "bye_week": 6,
+            "projected_points": 16.4,
+            "percent_rostered": 95.0
+          }
+        },
+        {
+          "slot": "RB",
+          "player": {
+            "name": "Leopold Applegate",
+            "position": "RB",
+            "nfl_team": "CIN",
+            "bye_week": 14,
+            "projected_points": 13.7,
+            "percent_rostered": 83.0
+          }
+        },
+        {
+          "slot": "RB",
+          "player": {
+            "name": "Quentin Kettleburn",
+            "position": "RB",
+            "nfl_team": "DAL",
+            "bye_week": 13,
+            "injury_status": "D",
+            "projected_points": 12.5,
+            "percent_rostered": 98.0
+          }
+        },
+        {
+          "slot": "TE",
+          "player": {
+            "name": "Ulric Zephyrson",
+            "position": "TE",
+            "nfl_team": "CIN",
+            "bye_week": 14,
+            "projected_points": 8.3,
+            "percent_rostered": 94.0
+          }
+        },
+        {
+          "slot": "W/R/T",
+          "player": {
+            "name": "Alaric Ironwood",
+            "position": "WR",
+            "nfl_team": "ARI",
+            "bye_week": 6,
+            "projected_points": 13.8,
+            "percent_rostered": 95.0
+          }
+        },
+        {
+          "slot": "K",
+          "player": {
+            "name": "Leopold Pennywhistle",
+            "position": "K",
+            "nfl_team": "CAR",
+            "bye_week": 6,
+            "projected_points": 7.6,
+            "percent_rostered": 90.0
+          }
+        },
+        {
+          "slot": "DEF",
+          "player": {
+            "name": "ATL Defense",
+            "position": "DEF",
+            "nfl_team": "ATL",
+            "bye_week": 10,
+            "projected_points": 5.4,
+            "percent_rostered": 94.0
+          }
+        },
+        {
+          "slot": "BN",
+          "player": {
+            "name": "Benedict Winterbourne",
+            "position": "QB",
+            "nfl_team": "CIN",
+            "bye_week": 14,
+            "projected_points": 15.9,
+            "percent_rostered": 95.0
+          }
+        },
+        {
+          "slot": "BN",
+          "player": {
+            "name": "Yates Foxglove",
+            "position": "RB",
+            "nfl_team": "NO",
+            "bye_week": 12,
+            "projected_points": 12.2,
+            "percent_rostered": 100.0
+          }
+        },
+        {
+          "slot": "BN",
+          "player": {
+            "name": "Ignatius Applegate",
+            "position": "WR",
+            "nfl_team": "KC",
+            "bye_week": 8,
+            "projected_points": 10.6,
+            "percent_rostered": 75.0
+          }
+        },
+        {
+          "slot": "BN",
+          "player": {
+            "name": "Cormac Puddlefoot",
+            "position": "RB",
+            "nfl_team": "WAS",
+            "bye_week": 11,
+            "projected_points": 8.5,
+            "percent_rostered": 72.0
+          }
+        },
+        {
+          "slot": "BN",
+          "player": {
+            "name": "Percival Marshbank",
+            "position": "RB",
+            "nfl_team": "CAR",
+            "bye_week": 6,
+            "projected_points": 6.9,
+            "percent_rostered": 85.0
+          }
+        },
+        {
+          "slot": "BN",
+          "player": {
+            "name": "Barrett Puddlefoot",
+            "position": "WR",
+            "nfl_team": "GB",
+            "bye_week": 13,
+            "projected_points": 6.9,
+            "percent_rostered": 92.0
+          }
+        }
+      ]
+    },
+    {
+      "team_id": "5",
+      "name": "Hail Mary Herons",
+      "manager": "Jordan",
+      "is_mine": false,
+      "wins": 2,
+      "losses": 1,
+      "ties": 0,
+      "points_for": 328.3,
+      "faab_remaining": 99,
+      "roster": [
+        {
+          "slot": "QB",
+          "player": {
+            "name": "Osgood Mossgrove",
+            "position": "QB",
+            "nfl_team": "MIA",
+            "bye_week": 6,
+            "projected_points": 22.2,
+            "percent_rostered": 86.0
+          }
+        },
+        {
+          "slot": "WR",
+          "player": {
+            "name": "Maddox Oakenshaw",
+            "position": "WR",
+            "nfl_team": "NYJ",
+            "bye_week": 12,
+            "projected_points": 18.7,
+            "percent_rostered": 97.0
+          }
+        },
+        {
+          "slot": "WR",
+          "player": {
+            "name": "Osgood Goldsworth",
+            "position": "WR",
+            "nfl_team": "MIN",
+            "bye_week": 9,
+            "projected_points": 18.5,
+            "percent_rostered": 73.0
+          }
+        },
+        {
+          "slot": "RB",
+          "player": {
+            "name": "Nolan Ashgrove",
+            "position": "RB",
+            "nfl_team": "LV",
+            "bye_week": 5,
+            "projected_points": 19.1,
+            "percent_rostered": 93.0
+          }
+        },
+        {
+          "slot": "RB",
+          "player": {
+            "name": "Vaughn Northcliff",
+            "position": "RB",
+            "nfl_team": "LV",
+            "bye_week": 5,
+            "projected_points": 18.2,
+            "percent_rostered": 77.0
+          }
+        },
+        {
+          "slot": "TE",
+          "player": {
+            "name": "Zebulon Northcliff",
+            "position": "TE",
+            "nfl_team": "NO",
+            "bye_week": 12,
+            "projected_points": 12.0,
+            "percent_rostered": 70.0
+          }
+        },
+        {
+          "slot": "W/R/T",
+          "player": {
+            "name": "Osgood Birchfield",
+            "position": "RB",
+            "nfl_team": "SEA",
+            "bye_week": 9,
+            "projected_points": 17.4,
+            "percent_rostered": 79.0
+          }
+        },
+        {
+          "slot": "K",
+          "player": {
+            "name": "Abel Saddleworth",
+            "position": "K",
+            "nfl_team": "NYG",
+            "bye_week": 5,
+            "projected_points": 7.7,
+            "percent_rostered": 71.0
+          }
+        },
+        {
+          "slot": "DEF",
+          "player": {
+            "name": "KC Defense",
+            "position": "DEF",
+            "nfl_team": "KC",
+            "bye_week": 8,
+            "projected_points": 8.0,
+            "percent_rostered": 97.0
+          }
+        },
+        {
+          "slot": "BN",
+          "player": {
+            "name": "Thaddeus Inkwell",
+            "position": "QB",
+            "nfl_team": "GB",
+            "bye_week": 13,
+            "projected_points": 16.5,
+            "percent_rostered": 87.0
+          }
+        },
+        {
+          "slot": "BN",
+          "player": {
+            "name": "Silas Puddlefoot",
+            "position": "WR",
+            "nfl_team": "NYJ",
+            "bye_week": 12,
+            "projected_points": 15.9,
+            "percent_rostered": 82.0
+          }
+        },
+        {
+          "slot": "BN",
+          "player": {
+            "name": "Xavier Applegate",
+            "position": "RB",
+            "nfl_team": "ARI",
+            "bye_week": 6,
+            "projected_points": 14.4,
+            "percent_rostered": 80.0
+          }
+        },
+        {
+          "slot": "BN",
+          "player": {
+            "name": "Percival Puddlefoot",
+            "position": "WR",
+            "nfl_team": "SF",
+            "bye_week": 11,
+            "projected_points": 11.9,
+            "percent_rostered": 80.0
+          }
+        },
+        {
+          "slot": "BN",
+          "player": {
+            "name": "Wendell Thistledown",
+            "position": "WR",
+            "nfl_team": "NE",
+            "bye_week": 6,
+            "projected_points": 11.5,
+            "percent_rostered": 84.0
+          }
+        },
+        {
+          "slot": "BN",
+          "player": {
+            "name": "Nolan Northcliff",
+            "position": "RB",
+            "nfl_team": "LV",
+            "bye_week": 5,
+            "projected_points": 10.1,
+            "percent_rostered": 93.0
+          }
+        }
+      ]
+    },
+    {
+      "team_id": "6",
+      "name": "Red Zone Raccoons",
+      "manager": "Avery",
+      "is_mine": false,
+      "wins": 2,
+      "losses": 1,
+      "ties": 0,
+      "points_for": 354.8,
+      "faab_remaining": 94,
+      "roster": [
+        {
+          "slot": "QB",
+          "player": {
+            "name": "Ignatius Ashgrove",
+            "position": "QB",
+            "nfl_team": "NYJ",
+            "bye_week": 12,
+            "projected_points": 22.6,
+            "percent_rostered": 92.0
+          }
+        },
+        {
+          "slot": "WR",
+          "player": {
+            "name": "Thaddeus Elderwood",
+            "position": "WR",
+            "nfl_team": "NYJ",
+            "bye_week": 12,
+            "injury_status": "Q",
+            "projected_points": 18.6,
+            "percent_rostered": 87.0
+          }
+        },
+        {
+          "slot": "WR",
+          "player": {
+            "name": "Ulric Pennywhistle",
+            "position": "WR",
+            "nfl_team": "ATL",
+            "bye_week": 10,
+            "projected_points": 17.2,
+            "percent_rostered": 83.0
+          }
+        },
+        {
+          "slot": "RB",
+          "player": {
+            "name": "Dexter Marshbank",
+            "position": "RB",
+            "nfl_team": "JAX",
+            "bye_week": 12,
+            "projected_points": 20.0,
+            "percent_rostered": 99.0
+          }
+        },
+        {
+          "slot": "RB",
+          "player": {
+            "name": "Dexter Thunderbrook",
+            "position": "RB",
+            "nfl_team": "GB",
+            "bye_week": 13,
+            "injury_status": "Q",
+            "projected_points": 19.1,
+            "percent_rostered": 100.0
+          }
+        },
+        {
+          "slot": "TE",
+          "player": {
+            "name": "Osgood Greystone",
+            "position": "TE",
+            "nfl_team": "LAC",
+            "bye_week": 14,
+            "projected_points": 13.9,
+            "percent_rostered": 75.0
+          }
+        },
+        {
+          "slot": "W/R/T",
+          "player": {
+            "name": "Wendell Copperfield",
+            "position": "WR",
+            "nfl_team": "NYG",
+            "bye_week": 5,
+            "projected_points": 16.9,
+            "percent_rostered": 84.0
+          }
+        },
+        {
+          "slot": "K",
+          "player": {
+            "name": "Harlan Pennywhistle",
+            "position": "K",
+            "nfl_team": "PHI",
+            "bye_week": 10,
+            "projected_points": 8.9,
+            "percent_rostered": 72.0
+          }
+        },
+        {
+          "slot": "DEF",
+          "player": {
+            "name": "DAL Defense",
+            "position": "DEF",
+            "nfl_team": "DAL",
+            "bye_week": 13,
+            "projected_points": 7.3,
+            "percent_rostered": 88.0
+          }
+        },
+        {
+          "slot": "BN",
+          "player": {
+            "name": "Xavier Greystone",
+            "position": "QB",
+            "nfl_team": "BUF",
+            "bye_week": 13,
+            "projected_points": 17.3,
+            "percent_rostered": 78.0
+          }
+        },
+        {
+          "slot": "BN",
+          "player": {
+            "name": "Dexter Yarrowby",
+            "position": "RB",
+            "nfl_team": "TB",
+            "bye_week": 10,
+            "projected_points": 14.6,
+            "percent_rostered": 86.0
+          }
+        },
+        {
+          "slot": "BN",
+          "player": {
+            "name": "Benedict Pennywhistle",
+            "position": "WR",
+            "nfl_team": "HOU",
+            "bye_week": 12,
+            "projected_points": 11.4,
+            "percent_rostered": 74.0
+          }
+        },
+        {
+          "slot": "BN",
+          "player": {
+            "name": "Xavier Fairweather",
+            "position": "RB",
+            "nfl_team": "BUF",
+            "bye_week": 13,
+            "projected_points": 7.5,
+            "percent_rostered": 83.0
+          }
+        },
+        {
+          "slot": "BN",
+          "player": {
+            "name": "Maddox Yarrowby",
+            "position": "WR",
+            "nfl_team": "CIN",
+            "bye_week": 14,
+            "projected_points": 6.9,
+            "percent_rostered": 88.0
+          }
+        },
+        {
+          "slot": "BN",
+          "player": {
+            "name": "Jasper Thunderbrook",
+            "position": "RB",
+            "nfl_team": "LV",
+            "bye_week": 5,
+            "injury_status": "Q",
+            "projected_points": 6.8,
+            "percent_rostered": 77.0
+          }
+        }
+      ]
+    },
+    {
+      "team_id": "7",
+      "name": "Fumble Foxes",
+      "manager": "Quinn",
+      "is_mine": false,
+      "wins": 3,
+      "losses": 0,
+      "ties": 0,
+      "points_for": 388.6,
+      "faab_remaining": 88,
+      "roster": [
+        {
+          "slot": "QB",
+          "player": {
+            "name": "Dexter Greystone",
+            "position": "QB",
+            "nfl_team": "CIN",
+            "bye_week": 14,
+            "projected_points": 18.3,
+            "percent_rostered": 78.0
+          }
+        },
+        {
+          "slot": "WR",
+          "player": {
+            "name": "Dexter Fairweather",
+            "position": "WR",
+            "nfl_team": "TB",
+            "bye_week": 10,
+            "projected_points": 16.2,
+            "percent_rostered": 97.0
+          }
+        },
+        {
+          "slot": "WR",
+          "player": {
+            "name": "Silas Yarrowby",
+            "position": "WR",
+            "nfl_team": "CLE",
+            "bye_week": 14,
+            "projected_points": 13.6,
+            "percent_rostered": 85.0
+          }
+        },
+        {
+          "slot": "RB",
+          "player": {
+            "name": "Maddox Fairweather",
+            "position": "RB",
+            "nfl_team": "PHI",
+            "bye_week": 10,
+            "projected_points": 18.0,
+            "percent_rostered": 70.0
+          }
+        },
+        {
+          "slot": "RB",
+          "player": {
+            "name": "Fenwick Underhill",
+            "position": "RB",
+            "nfl_team": "DET",
+            "bye_week": 14,
+            "projected_points": 15.7,
+            "percent_rostered": 70.0
+          }
+        },
+        {
+          "slot": "TE",
+          "player": {
+            "name": "Harlan Cinderford",
+            "position": "TE",
+            "nfl_team": "NYG",
+            "bye_week": 5,
+            "projected_points": 11.8,
+            "percent_rostered": 100.0
+          }
+        },
+        {
+          "slot": "W/R/T",
+          "player": {
+            "name": "Benedict Applegate",
+            "position": "RB",
+            "nfl_team": "CIN",
+            "bye_week": 14,
+            "projected_points": 11.4,
+            "percent_rostered": 81.0
+          }
+        },
+        {
+          "slot": "K",
+          "player": {
+            "name": "Zebulon Hollowell",
+            "position": "K",
+            "nfl_team": "NYG",
+            "bye_week": 5,
+            "projected_points": 7.9,
+            "percent_rostered": 99.0
+          }
+        },
+        {
+          "slot": "DEF",
+          "player": {
+            "name": "BAL Defense",
+            "position": "DEF",
+            "nfl_team": "BAL",
+            "bye_week": 13,
+            "projected_points": 8.2,
+            "percent_rostered": 74.0
+          }
+        },
+        {
+          "slot": "BN",
+          "player": {
+            "name": "Maddox Puddlefoot",
+            "position": "QB",
+            "nfl_team": "DEN",
+            "bye_week": 11,
+            "projected_points": 16.9,
+            "percent_rostered": 94.0
+          }
+        },
+        {
+          "slot": "BN",
+          "player": {
+            "name": "Ulric Inkwell",
+            "position": "WR",
+            "nfl_team": "JAX",
+            "bye_week": 12,
+            "projected_points": 9.3,
+            "percent_rostered": 79.0
+          }
+        },
+        {
+          "slot": "BN",
+          "player": {
+            "name": "Barrett Northcliff",
+            "position": "WR",
+            "nfl_team": "DAL",
+            "bye_week": 13,
+            "projected_points": 8.5,
+            "percent_rostered": 78.0
+          }
+        },
+        {
+          "slot": "BN",
+          "player": {
+            "name": "Benedict Yarrowby",
+            "position": "RB",
+            "nfl_team": "TB",
+            "bye_week": 10,
+            "projected_points": 8.1,
+            "percent_rostered": 80.0
+          }
+        },
+        {
+          "slot": "BN",
+          "player": {
+            "name": "Xavier Saddleworth",
+            "position": "RB",
+            "nfl_team": "NYG",
+            "bye_week": 5,
+            "projected_points": 7.3,
+            "percent_rostered": 87.0
+          }
+        },
+        {
+          "slot": "BN",
+          "player": {
+            "name": "Nolan Foxglove",
+            "position": "WR",
+            "nfl_team": "CLE",
+            "bye_week": 14,
+            "projected_points": 7.0,
+            "percent_rostered": 77.0
+          }
+        }
+      ]
+    },
+    {
+      "team_id": "8",
+      "name": "Punt Pandas",
+      "manager": "Rowan",
+      "is_mine": false,
+      "wins": 2,
+      "losses": 1,
+      "ties": 0,
+      "points_for": 385.8,
+      "faab_remaining": 94,
+      "roster": [
+        {
+          "slot": "QB",
+          "player": {
+            "name": "Kellan Birchfield",
+            "position": "QB",
+            "nfl_team": "JAX",
+            "bye_week": 12,
+            "projected_points": 18.7,
+            "percent_rostered": 99.0
+          }
+        },
+        {
+          "slot": "WR",
+          "player": {
+            "name": "Dexter Tumbleweed",
+            "position": "WR",
+            "nfl_team": "MIN",
+            "bye_week": 9,
+            "injury_status": "Q",
+            "projected_points": 18.7,
+            "percent_rostered": 96.0
+          }
+        },
+        {
+          "slot": "WR",
+          "player": {
+            "name": "Ellis Goldsworth",
+            "position": "WR",
+            "nfl_team": "CHI",
+            "bye_week": 8,
+            "projected_points": 14.5,
+            "percent_rostered": 99.0
+          }
+        },
+        {
+          "slot": "RB",
+          "player": {
+            "name": "Fenwick Birchfield",
+            "position": "RB",
+            "nfl_team": "PHI",
+            "bye_week": 10,
+            "projected_points": 19.3,
+            "percent_rostered": 92.0
+          }
+        },
+        {
+          "slot": "RB",
+          "player": {
+            "name": "Leopold Inkwell",
+            "position": "RB",
+            "nfl_team": "BUF",
+            "bye_week": 13,
+            "projected_points": 10.1,
+            "percent_rostered": 83.0
+          }
+        },
+        {
+          "slot": "TE",
+          "player": {
+            "name": "Abel Thunderbrook",
+            "position": "TE",
+            "nfl_team": "WAS",
+            "bye_week": 11,
+            "projected_points": 5.6,
+            "percent_rostered": 90.0
+          }
+        },
+        {
+          "slot": "W/R/T",
+          "player": {
+            "name": "Caspian Foxglove",
+            "position": "WR",
+            "nfl_team": "JAX",
+            "bye_week": 12,
+            "injury_status": "D",
+            "projected_points": 13.5,
+            "percent_rostered": 85.0
+          }
+        },
+        {
+          "slot": "K",
+          "player": {
+            "name": "Maddox Orchardson",
+            "position": "K",
+            "nfl_team": "NE",
+            "bye_week": 6,
+            "projected_points": 9.5,
+            "percent_rostered": 76.0
+          }
+        },
+        {
+          "slot": "DEF",
+          "player": {
+            "name": "NO Defense",
+            "position": "DEF",
+            "nfl_team": "NO",
+            "bye_week": 12,
+            "projected_points": 7.7,
+            "percent_rostered": 78.0
+          }
+        },
+        {
+          "slot": "BN",
+          "player": {
+            "name": "Osgood Hawkridge",
+            "position": "QB",
+            "nfl_team": "BUF",
+            "bye_week": 13,
+            "projected_points": 17.5,
+            "percent_rostered": 99.0
+          }
+        },
+        {
+          "slot": "BN",
+          "player": {
+            "name": "Abel Ravenscroft",
+            "position": "WR",
+            "nfl_team": "PIT",
+            "bye_week": 8,
+            "projected_points": 13.0,
+            "percent_rostered": 89.0
+          }
+        },
+        {
+          "slot": "BN",
+          "player": {
+            "name": "Yates Pennywhistle",
+            "position": "RB",
+            "nfl_team": "PIT",
+            "bye_week": 8,
+            "injury_status": "Q",
+            "projected_points": 10.0,
+            "percent_rostered": 74.0
+          }
+        },
+        {
+          "slot": "BN",
+          "player": {
+            "name": "Maddox Mossgrove",
+            "position": "WR",
+            "nfl_team": "ARI",
+            "bye_week": 6,
+            "injury_status": "Q",
+            "projected_points": 8.6,
+            "percent_rostered": 90.0
+          }
+        },
+        {
+          "slot": "BN",
+          "player": {
+            "name": "Caspian Kettleburn",
+            "position": "RB",
+            "nfl_team": "BAL",
+            "bye_week": 13,
+            "projected_points": 8.1,
+            "percent_rostered": 84.0
+          }
+        },
+        {
+          "slot": "BN",
+          "player": {
+            "name": "Vaughn Ashgrove",
+            "position": "RB",
+            "nfl_team": "CIN",
+            "bye_week": 14,
+            "projected_points": 7.7,
+            "percent_rostered": 100.0
+          }
+        }
+      ]
+    },
+    {
+      "team_id": "9",
+      "name": "Sack Salamanders",
+      "manager": "Emerson",
+      "is_mine": false,
+      "wins": 2,
+      "losses": 1,
+      "ties": 0,
+      "points_for": 385.7,
+      "faab_remaining": 94,
+      "roster": [
+        {
+          "slot": "QB",
+          "player": {
+            "name": "Percival Birchfield",
+            "position": "QB",
+            "nfl_team": "ATL",
+            "bye_week": 10,
+            "projected_points": 23.3,
+            "percent_rostered": 71.0
+          }
+        },
+        {
+          "slot": "WR",
+          "player": {
+            "name": "Barrett Ashgrove",
+            "position": "WR",
+            "nfl_team": "NYJ",
+            "bye_week": 12,
+            "projected_points": 17.4,
+            "percent_rostered": 89.0
+          }
+        },
+        {
+          "slot": "WR",
+          "player": {
+            "name": "Harlan Quickwater",
+            "position": "WR",
+            "nfl_team": "DAL",
+            "bye_week": 13,
+            "projected_points": 15.1,
+            "percent_rostered": 79.0
+          }
+        },
+        {
+          "slot": "RB",
+          "player": {
+            "name": "Xavier Mossgrove",
+            "position": "RB",
+            "nfl_team": "PHI",
+            "bye_week": 10,
+            "projected_points": 18.8,
+            "percent_rostered": 97.0
+          }
+        },
+        {
+          "slot": "RB",
+          "player": {
+            "name": "Alaric Applegate",
+            "position": "RB",
+            "nfl_team": "BAL",
+            "bye_week": 13,
+            "projected_points": 18.1,
+            "percent_rostered": 85.0
+          }
+        },
+        {
+          "slot": "TE",
+          "player": {
+            "name": "Vaughn Pennywhistle",
+            "position": "TE",
+            "nfl_team": "WAS",
+            "bye_week": 11,
+            "projected_points": 7.9,
+            "percent_rostered": 92.0
+          }
+        },
+        {
+          "slot": "W/R/T",
+          "player": {
+            "name": "Dashiell Tumbleweed",
+            "position": "WR",
+            "nfl_team": "GB",
+            "bye_week": 13,
+            "projected_points": 11.6,
+            "percent_rostered": 83.0
+          }
+        },
+        {
+          "slot": "K",
+          "player": {
+            "name": "Alaric Orchardson",
+            "position": "K",
+            "nfl_team": "KC",
+            "bye_week": 8,
+            "projected_points": 8.9,
+            "percent_rostered": 95.0
+          }
+        },
+        {
+          "slot": "DEF",
+          "player": {
+            "name": "NYG Defense",
+            "position": "DEF",
+            "nfl_team": "NYG",
+            "bye_week": 5,
+            "projected_points": 8.7,
+            "percent_rostered": 95.0
+          }
+        },
+        {
+          "slot": "BN",
+          "player": {
+            "name": "Quentin Applegate",
+            "position": "QB",
+            "nfl_team": "CHI",
+            "bye_week": 8,
+            "projected_points": 22.9,
+            "percent_rostered": 95.0
+          }
+        },
+        {
+          "slot": "BN",
+          "player": {
+            "name": "Fenwick Greystone",
+            "position": "WR",
+            "nfl_team": "TEN",
+            "bye_week": 10,
+            "projected_points": 11.1,
+            "percent_rostered": 95.0
+          }
+        },
+        {
+          "slot": "BN",
+          "player": {
+            "name": "Caspian Pennywhistle",
+            "position": "RB",
+            "nfl_team": "NO",
+            "bye_week": 12,
+            "projected_points": 9.7,
+            "percent_rostered": 77.0
+          }
+        },
+        {
+          "slot": "BN",
+          "player": {
+            "name": "Rafferty Oakenshaw",
+            "position": "RB",
+            "nfl_team": "SF",
+            "bye_week": 11,
+            "projected_points": 8.9,
+            "percent_rostered": 76.0
+          }
+        },
+        {
+          "slot": "BN",
+          "player": {
+            "name": "Rafferty Greystone",
+            "position": "WR",
+            "nfl_team": "SF",
+            "bye_week": 11,
+            "projected_points": 8.6,
+            "percent_rostered": 82.0
+          }
+        },
+        {
+          "slot": "BN",
+          "player": {
+            "name": "Wendell Cinderford",
+            "position": "RB",
+            "nfl_team": "TB",
+            "bye_week": 10,
+            "projected_points": 6.1,
+            "percent_rostered": 71.0
+          }
+        }
+      ]
+    },
+    {
+      "team_id": "10",
+      "name": "Audible Armadillos",
+      "manager": "Sawyer",
+      "is_mine": false,
+      "wins": 2,
+      "losses": 1,
+      "ties": 0,
+      "points_for": 356.0,
+      "faab_remaining": 72,
+      "roster": [
+        {
+          "slot": "QB",
+          "player": {
+            "name": "Thaddeus Thunderbrook",
+            "position": "QB",
+            "nfl_team": "JAX",
+            "bye_week": 12,
+            "projected_points": 20.2,
+            "percent_rostered": 84.0
+          }
+        },
+        {
+          "slot": "WR",
+          "player": {
+            "name": "Quentin Oakenshaw",
+            "position": "WR",
+            "nfl_team": "LAC",
+            "bye_week": 14,
+            "injury_status": "Q",
+            "projected_points": 17.8,
+            "percent_rostered": 88.0
+          }
+        },
+        {
+          "slot": "WR",
+          "player": {
+            "name": "Silas Quarryman",
+            "position": "WR",
+            "nfl_team": "DAL",
+            "bye_week": 13,
+            "projected_points": 10.2,
+            "percent_rostered": 88.0
+          }
+        },
+        {
+          "slot": "RB",
+          "player": {
+            "name": "Vaughn Birchfield",
+            "position": "RB",
+            "nfl_team": "TB",
+            "bye_week": 10,
+            "injury_status": "Q",
+            "projected_points": 18.0,
+            "percent_rostered": 93.0
+          }
+        },
+        {
+          "slot": "RB",
+          "player": {
+            "name": "Kellan Goldsworth",
+            "position": "RB",
+            "nfl_team": "TB",
+            "bye_week": 10,
+            "projected_points": 17.3,
+            "percent_rostered": 94.0
+          }
+        },
+        {
+          "slot": "TE",
+          "player": {
+            "name": "Yates Zephyrson",
+            "position": "TE",
+            "nfl_team": "CAR",
+            "bye_week": 6,
+            "projected_points": 6.2,
+            "percent_rostered": 95.0
+          }
+        },
+        {
+          "slot": "W/R/T",
+          "player": {
+            "name": "Silas Ironwood",
+            "position": "RB",
+            "nfl_team": "LAR",
+            "bye_week": 6,
+            "projected_points": 14.8,
+            "percent_rostered": 78.0
+          }
+        },
+        {
+          "slot": "K",
+          "player": {
+            "name": "Nolan Thistledown",
+            "position": "K",
+            "nfl_team": "LAC",
+            "bye_week": 14,
+            "projected_points": 7.6,
+            "percent_rostered": 75.0
+          }
+        },
+        {
+          "slot": "DEF",
+          "player": {
+            "name": "LAC Defense",
+            "position": "DEF",
+            "nfl_team": "LAC",
+            "bye_week": 14,
+            "projected_points": 7.0,
+            "percent_rostered": 72.0
+          }
+        },
+        {
+          "slot": "BN",
+          "player": {
+            "name": "Harlan Foxglove",
+            "position": "QB",
+            "nfl_team": "LAC",
+            "bye_week": 14,
+            "projected_points": 18.6,
+            "percent_rostered": 77.0
+          }
+        },
+        {
+          "slot": "BN",
+          "player": {
+            "name": "Ellis Ravenscroft",
+            "position": "RB",
+            "nfl_team": "NYJ",
+            "bye_week": 12,
+            "projected_points": 13.2,
+            "percent_rostered": 93.0
+          }
+        },
+        {
+          "slot": "BN",
+          "player": {
+            "name": "Vaughn Puddlefoot",
+            "position": "WR",
+            "nfl_team": "LAC",
+            "bye_week": 14,
+            "projected_points": 9.6,
+            "percent_rostered": 86.0
+          }
+        },
+        {
+          "slot": "BN",
+          "player": {
+            "name": "Quentin Elderwood",
+            "position": "WR",
+            "nfl_team": "MIN",
+            "bye_week": 9,
+            "projected_points": 9.4,
+            "percent_rostered": 91.0
+          }
+        },
+        {
+          "slot": "BN",
+          "player": {
+            "name": "Abel Goldsworth",
+            "position": "RB",
+            "nfl_team": "MIN",
+            "bye_week": 9,
+            "projected_points": 7.7,
+            "percent_rostered": 91.0
+          }
+        },
+        {
+          "slot": "BN",
+          "player": {
+            "name": "Ignatius Quarryman",
+            "position": "WR",
+            "nfl_team": "LAC",
+            "bye_week": 14,
+            "projected_points": 6.7,
+            "percent_rostered": 97.0
+          }
+        }
+      ]
+    }
+  ],
+  "matchups": [
+    {
+      "week": 4,
+      "team_a_id": "1",
+      "team_b_id": "2"
+    },
+    {
+      "week": 4,
+      "team_a_id": "3",
+      "team_b_id": "4"
+    },
+    {
+      "week": 4,
+      "team_a_id": "5",
+      "team_b_id": "6"
+    },
+    {
+      "week": 4,
+      "team_a_id": "7",
+      "team_b_id": "8"
+    },
+    {
+      "week": 4,
+      "team_a_id": "9",
+      "team_b_id": "10"
+    }
+  ],
+  "free_agents": [
+    {
+      "name": "Thaddeus Foxglove",
+      "position": "QB",
+      "nfl_team": "NYG",
+      "bye_week": 5,
+      "projected_points": 11.8,
+      "percent_rostered": 2.0
+    },
+    {
+      "name": "Cormac Zephyrson",
+      "position": "QB",
+      "nfl_team": "ARI",
+      "bye_week": 6,
+      "injury_status": "Q",
+      "projected_points": 15.4,
+      "percent_rostered": 4.0
+    },
+    {
+      "name": "Dashiell Orchardson",
+      "position": "QB",
+      "nfl_team": "MIN",
+      "bye_week": 9,
+      "projected_points": 7.2,
+      "percent_rostered": 33.0
+    },
+    {
+      "name": "Percival Applegate",
+      "position": "QB",
+      "nfl_team": "BUF",
+      "bye_week": 13,
+      "projected_points": 12.1,
+      "percent_rostered": 8.0
+    },
+    {
+      "name": "Gideon Oakenshaw",
+      "position": "RB",
+      "nfl_team": "SEA",
+      "bye_week": 9,
+      "projected_points": 5.0,
+      "percent_rostered": 53.0
+    },
+    {
+      "name": "Nolan Yarrowby",
+      "position": "RB",
+      "nfl_team": "DEN",
+      "bye_week": 11,
+      "projected_points": 12.7,
+      "percent_rostered": 4.0
+    },
+    {
+      "name": "Cormac Hollowell",
+      "position": "RB",
+      "nfl_team": "NYG",
+      "bye_week": 5,
+      "projected_points": 5.0,
+      "percent_rostered": 21.0
+    },
+    {
+      "name": "Dashiell Kettleburn",
+      "position": "RB",
+      "nfl_team": "TEN",
+      "bye_week": 10,
+      "projected_points": 8.3,
+      "percent_rostered": 51.0
+    },
+    {
+      "name": "Rafferty Thunderbrook",
+      "position": "RB",
+      "nfl_team": "CIN",
+      "bye_week": 14,
+      "projected_points": 12.7,
+      "percent_rostered": 27.0
+    },
+    {
+      "name": "Yates Rookwood",
+      "position": "RB",
+      "nfl_team": "CAR",
+      "bye_week": 6,
+      "projected_points": 6.1,
+      "percent_rostered": 17.0
+    },
+    {
+      "name": "Cormac Ravenscroft",
+      "position": "RB",
+      "nfl_team": "NO",
+      "bye_week": 12,
+      "injury_status": "Q",
+      "projected_points": 4.9,
+      "percent_rostered": 17.0
+    },
+    {
+      "name": "Osgood Oakenshaw",
+      "position": "RB",
+      "nfl_team": "KC",
+      "bye_week": 8,
+      "projected_points": 3.5,
+      "percent_rostered": 21.0
+    },
+    {
+      "name": "Cormac Thunderbrook",
+      "position": "WR",
+      "nfl_team": "ARI",
+      "bye_week": 6,
+      "projected_points": 3.0,
+      "percent_rostered": 2.0
+    },
+    {
+      "name": "Caspian Ravenscroft",
+      "position": "WR",
+      "nfl_team": "MIA",
+      "bye_week": 6,
+      "projected_points": 4.8,
+      "percent_rostered": 30.0
+    },
+    {
+      "name": "Leopold Puddlefoot",
+      "position": "WR",
+      "nfl_team": "CHI",
+      "bye_week": 8,
+      "projected_points": 7.6,
+      "percent_rostered": 23.0
+    },
+    {
+      "name": "Alaric Yarrowby",
+      "position": "WR",
+      "nfl_team": "NO",
+      "bye_week": 12,
+      "projected_points": 8.5,
+      "percent_rostered": 60.0
+    },
+    {
+      "name": "Ellis Birchfield",
+      "position": "WR",
+      "nfl_team": "BAL",
+      "bye_week": 13,
+      "injury_status": "Q",
+      "projected_points": 6.9,
+      "percent_rostered": 4.0
+    },
+    {
+      "name": "Alaric Quickwater",
+      "position": "WR",
+      "nfl_team": "CHI",
+      "bye_week": 8,
+      "projected_points": 10.3,
+      "percent_rostered": 57.0
+    },
+    {
+      "name": "Wendell Marshbank",
+      "position": "WR",
+      "nfl_team": "SEA",
+      "bye_week": 9,
+      "projected_points": 11.1,
+      "percent_rostered": 52.0
+    },
+    {
+      "name": "Wendell Ashgrove",
+      "position": "WR",
+      "nfl_team": "WAS",
+      "bye_week": 11,
+      "projected_points": 4.6,
+      "percent_rostered": 47.0
+    },
+    {
+      "name": "Quentin Hollowell",
+      "position": "TE",
+      "nfl_team": "DET",
+      "bye_week": 14,
+      "projected_points": 8.1,
+      "percent_rostered": 6.0
+    },
+    {
+      "name": "Ignatius Inkwell",
+      "position": "TE",
+      "nfl_team": "HOU",
+      "bye_week": 12,
+      "projected_points": 2.9,
+      "percent_rostered": 10.0
+    },
+    {
+      "name": "Osgood Tumbleweed",
+      "position": "TE",
+      "nfl_team": "WAS",
+      "bye_week": 11,
+      "projected_points": 3.2,
+      "percent_rostered": 28.0
+    },
+    {
+      "name": "Benedict Fairweather",
+      "position": "TE",
+      "nfl_team": "CLE",
+      "bye_week": 14,
+      "projected_points": 8.3,
+      "percent_rostered": 10.0
+    },
+    {
+      "name": "Leopold Fairweather",
+      "position": "K",
+      "nfl_team": "CIN",
+      "bye_week": 14,
+      "projected_points": 6.2,
+      "percent_rostered": 33.0
+    },
+    {
+      "name": "Cormac Underhill",
+      "position": "K",
+      "nfl_team": "ATL",
+      "bye_week": 10,
+      "projected_points": 5.3,
+      "percent_rostered": 32.0
+    },
+    {
+      "name": "Ellis Winterbourne",
+      "position": "K",
+      "nfl_team": "NE",
+      "bye_week": 6,
+      "projected_points": 4.1,
+      "percent_rostered": 36.0
+    },
+    {
+      "name": "CHI Defense",
+      "position": "DEF",
+      "nfl_team": "CHI",
+      "bye_week": 8,
+      "projected_points": 6.1,
+      "percent_rostered": 5.0
+    },
+    {
+      "name": "NYJ Defense",
+      "position": "DEF",
+      "nfl_team": "NYJ",
+      "bye_week": 12,
+      "projected_points": 4.2,
+      "percent_rostered": 16.0
+    },
+    {
+      "name": "LV Defense",
+      "position": "DEF",
+      "nfl_team": "LV",
+      "bye_week": 5,
+      "projected_points": 5.8,
+      "percent_rostered": 8.0
+    }
+  ]
+}

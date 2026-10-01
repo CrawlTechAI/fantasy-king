@@ -1,0 +1,10 @@
+# Streamlit settings for the dashboard.
+
+[browser]
+# Do not send usage statistics to Streamlit.
+gatherUsageStats = false
+
+[server]
+# Only this computer can open the dashboard.
+address = "localhost"
+port = 8501

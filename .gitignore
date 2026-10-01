@@ -1,0 +1,54 @@
+# ---------------------------------------------------------------
+# Anything listed here is NEVER uploaded to GitHub.
+# This repo is public, so secrets and league data must stay local.
+# ---------------------------------------------------------------
+
+# Secrets and settings
+.env
+.env.*
+!.env.example
+*token*.json
+*tokens*.json
+*.pem
+*.key
+secrets/
+
+# Your league data, database, and screenshots
+data/
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+screenshots/
+imports/
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.heic
+
+# Sleeper player cache (large, re-downloaded when needed)
+sleeper_cache/
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Streamlit local secrets
+.streamlit/secrets.toml
+
+# Logs
+logs/
+*.log
+
+# Editor and Windows clutter
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+
+# Claude Code local settings
+.claude/
