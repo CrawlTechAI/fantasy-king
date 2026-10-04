@@ -27,6 +27,8 @@ FORBIDDEN_PATHS = {
     "*.sqlite": "database file",
     "*.sqlite3": "database file",
     "*token*.json": "sign-in token file",
+    "chatgpt_session.*": "saved ChatGPT sign-in",
+    "*.dpapi": "saved ChatGPT sign-in",
     "screenshots/*": "screenshot",
     "imports/*": "pasted league data",
     "*.png": "image (possible screenshot)",
@@ -37,7 +39,13 @@ FORBIDDEN_PATHS = {
 ALLOWED_PATHS = {".env.example"}
 
 # These must be reported as ignored by Git, proving .gitignore is doing its job.
-MUST_BE_IGNORED = [".env", "data/fantasy_king.db", "data/screenshots/roster.png"]
+MUST_BE_IGNORED = [
+    ".env",
+    "data/fantasy_king.db",
+    "data/screenshots/roster.png",
+    "chatgpt_session.dpapi",
+    "chatgpt_session.json",
+]
 
 SECRET_PATTERNS = {
     "OpenRouter API key": re.compile(r"sk-or-v1-[A-Za-z0-9]{20,}"),

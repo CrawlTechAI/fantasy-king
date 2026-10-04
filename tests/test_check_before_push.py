@@ -16,6 +16,8 @@ FAKE = "a1B2c3D4e5" * 4
         "data/imports/week4.json",
         "league.sqlite3",
         "chatgpt_tokens.json",
+        "chatgpt_session.dpapi",
+        "somewhere/chatgpt_session.json",
         "screenshots/roster.png",
         "notes/roster.jpg",
     ],
