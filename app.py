@@ -7,6 +7,8 @@ Start it with start.bat, or from the project folder:
 import pandas as pd
 import streamlit as st
 
+from fantasy_king.ai.client import provider_status
+from fantasy_king.ai.errors import PROVIDER_LABELS
 from fantasy_king.config import ConfigError, load_settings
 from fantasy_king.league.base import LeagueDataError, get_league_data
 from fantasy_king.models import LeagueSnapshot, Player, RosterSpot
@@ -19,7 +21,6 @@ SOURCE_LABELS = {
     "manual": "Pasted from Yahoo",
     "yahoo_api": "Yahoo Fantasy API",
 }
-AI_LABELS = {"chatgpt": "ChatGPT plan", "openrouter": "OpenRouter"}
 SCORING_LABELS = {"standard": "Standard", "half_ppr": "Half PPR", "ppr": "PPR", "custom": "Custom"}
 POSITIONS = ["QB", "RB", "WR", "TE", "K", "DEF"]
 
@@ -126,9 +127,13 @@ def main() -> None:
     with st.sidebar:
         st.header("Settings in use")
         st.write(f"**League data:** {SOURCE_LABELS[league.source]}")
-        st.write(f"**AI provider:** {AI_LABELS[settings.ai_provider]} (not connected yet)")
+        ai_label = PROVIDER_LABELS[settings.ai_provider]
+        st.write(f"**AI provider:** {ai_label} ({provider_status(settings)})")
         st.write(f"**Data from:** {league.captured_at:%a %b %d, %I:%M %p}")
-        st.caption("Change these in your .env file, then refresh this page.")
+        st.caption(
+            "Change these in your .env file, then refresh this page. "
+            "Set up the AI on the AI connection page."
+        )
 
     mine = league.my_team
     matchup = league.my_matchup

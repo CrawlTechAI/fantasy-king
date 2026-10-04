@@ -4,4 +4,8 @@
 streamlit>=1.50      # the local web dashboard
 pydantic>=2.12       # checks that league data has the right shape
 python-dotenv>=1.1   # reads settings from the .env file
+openai>=2.0          # talks to ChatGPT and to OpenRouter (both use this library)
+httpx>=0.28          # web requests for sign-in and model lists
+PyJWT[crypto]>=2.10  # verifies that a sign-in really came from OpenAI
+pillow>=10.1         # draws the small picture used by the image test
 pytest>=8.0          # runs the automated tests

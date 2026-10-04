@@ -13,6 +13,11 @@
 *.key
 secrets/
 
+# Saved ChatGPT sign-in. The app keeps it outside this folder; these lines
+# protect it if someone points FANTASY_KING_HOME back inside the project.
+chatgpt_session.*
+*.dpapi
+
 # Your league data, database, and screenshots
 data/
 *.db
